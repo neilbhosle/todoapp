@@ -1,0 +1,32 @@
+.list{
+    background-color: beige;
+    border-radius: 8px;
+    padding: 8px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* box-shadow: 0 4px 6px rgba(214, 55, 55, 0.1); 4th value is alpha value */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    list-style: none;
+
+}
+
+.emptyState {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    color: #8e5add;
+    animation: bounceIn 0.6s ease;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

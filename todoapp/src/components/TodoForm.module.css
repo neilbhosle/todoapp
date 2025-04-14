@@ -1,0 +1,38 @@
+.todoform{
+    background-color: beige;
+    border-radius: 8px;
+    padding: 8px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* box-shadow: 0 4px 6px rgba(214, 55, 55, 0.1); 4th value is alpha value */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.modernInput{
+    display: block;
+    width: 100%;
+    border: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.modernInput:focus{
+    outline: none;
+}
+
+.modernButton{
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background-color: #a777e3;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.inputContainer{
+    display: flex;
+}
