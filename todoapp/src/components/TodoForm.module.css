@@ -5,7 +5,6 @@
     width: 500px;
     margin: 0 auto;
     margin-top: 50px;
-    /* box-shadow: 0 4px 6px rgba(214, 55, 55, 0.1); 4th value is alpha value */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 

@@ -1,0 +1,55 @@
+@keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideDown {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+      
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
+  
+
+.footer {
+    width: 100%;
+    padding: 1.5rem 0;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', sans-serif;
+    z-index: 100;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slideUp {
+    animation: slideUp 0.5s ease-out forwards;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .slideDown {
+    animation: slideDown 0.5s ease-out forwards;
+    transition: all 0.3s ease-in-out;
+  }
