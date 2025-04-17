@@ -11,6 +11,19 @@ function App() {
   const active = todos.filter((t) => !t.completed).length;
   const total = todos.length;
 
+  const [nextId, setNextId] = useState(1); 
+
+  const addTodo = (text) => {
+    const newTodo = {
+      id: nextId,
+      text,
+      completed: false,
+  };
+  setTodos([...todos, newTodo]);
+  setNextId(nextId + 1); 
+};
+
+
   useEffect(() => {
     if (total > 0) {
       setShowFooter(true);

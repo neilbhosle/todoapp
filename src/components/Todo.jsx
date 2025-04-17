@@ -11,6 +11,7 @@ export default function Todo({todos, setTodos}) {
       if (!trimmed || todos.some(t => t.text === trimmed)) return;
     
       const newTodo = {
+        id: Date.now(),
         text: trimmed,
         completed: false
       };
