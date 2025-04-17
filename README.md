@@ -40,6 +40,7 @@ npm run dev
 
 Open in browser: Visit http://localhost:5173
 
+
 📁 File Structure
 
 todo-app/
@@ -70,10 +71,13 @@ todo-app/
 ├── README.md
 └── .gitignore
 
+
 🔊 Sound Credits
 All sound effects are royalty-free and used for demonstration purposes.
 
+
 📃 License
 This project is licensed under the MIT License.
+
 
 Made with 💙 by Indraneel Bhosale
