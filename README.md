@@ -1,12 +1,78 @@
-# React + Vite
+# 📝 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and simple React-based Todo app with enhanced interactivity and sound effects for a fun user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add, edit, delete todos
+- ✅ Mark items as complete/incomplete
+- ✅ Smooth UI with animations
+- ✅ Sound effects for interactions
+- ✅ Responsive and clean design
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Todo App Screenshot](ScreenshotTodoApp.png)
+
+## 🛠️ Tech Stack
+
+- React
+- CSS Modules
+- Vite (for fast dev/build)
+- HTML5 Audio API
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/neilbhosle/todoapp.git
+   cd todoapp
+
+Install dependencies:
+
+npm install
+
+Run the app:
+
+npm run dev
+
+Open in browser: Visit http://localhost:5173
+
+📁 File Structure
+
+todo-app/
+├── public/
+│   ├── ScreenshotTodoApp.png   # App screenshot for README
+│   └── todo-icon.png           # Optional favicon or logo
+├── src/
+│   ├── components/
+│   │   ├── Footer.jsx
+│   │   ├── Footer.module.css
+│   │   ├── Header.jsx
+│   │   ├── header.module.css
+│   │   ├── Todo.jsx
+│   │   ├── TodoForm.jsx
+│   │   ├── TodoForm.module.css
+│   │   ├── TodoItem.jsx
+│   │   ├── TodoItem.module.css
+│   │   ├── TodoList.jsx
+│   │   └── TodoList.module.css
+│   ├── sounds/
+│   │   ├── complete.wav
+│   │   ├── delete.wav
+│   │   └── edit.wav
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── README.md
+└── .gitignore
+
+🔊 Sound Credits
+All sound effects are royalty-free and used for demonstration purposes.
+
+📃 License
+This project is licensed under the MIT License.
+
+Made with 💙 by Indraneel Bhosale
