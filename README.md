@@ -12,7 +12,8 @@ A sleek and simple React-based Todo app with enhanced interactivity and sound ef
 
 ## 📸 Screenshot
 
-![Todo App Screenshot](ScreenshotTodoApp.png)
+![Screenshot of the Todo App](https://raw.githubusercontent.com/indraneel/todoapp/main/public/ScreenshotTodoApp.png)
+
 
 ## 🛠️ Tech Stack
 
